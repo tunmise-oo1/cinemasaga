@@ -109,6 +109,82 @@
     </div>
   </div>
 
+  <!-- modals -->
+  <div class="movie-modal" id="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modal-body">
+        <div class="modal-poster">
+          <img src="" id="modal-poster" alt="movie poster">
+        </div>
+        <div class="modal-info">
+          <h2 id="movie-title"></h2>
+          <div class="movie-details">
+            <p><strong>Genre:</strong> <span id="modalgenre"></span></p>
+            <p><strong>Genre:</strong> <span id="modalduration"></span></p>
+            <p><strong>Genre:</strong> <span id="modalrating"></span></p>
+          </div>
+          <p id="modaldescription"></p>
+          <div class="showtimes">
+            <h3>Showtimes</h3>
+            <div class="showtime-buttons">
+              <!-- button goes here -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- booking modal -->
+  <div class="booking-modal" id="modal">
+    <div class="modal-content booking-modal-con">
+      <span class="close booking-close"> &times; </span>
+      <div class="booking-header">
+        <h2 class="bookingmovietitle"></h2>
+        <p id="bookingshowtime"></p>
+      </div>
+
+
+      <div class="seating-container">
+        <div class="screen">
+          <div class="screen-label">SCREEN</div>
+        </div>
+        <div class="seating-chart" id="seating-chart">
+          <!-- contains different seats -->
+        </div>
+
+        <div class="seat-legends">
+          <div class="legend-item">
+            <div class="seat available"></div>
+            <span>Available</span>
+          </div>
+          <div class="legend-item">
+            <div class="seat selected"></div>
+            <span>Selected</span>
+          </div>
+          <div class="legend-item">
+            <div class="seat occupied"></div>
+            <span>Occupied</span>
+          </div>
+        </div>
+
+        <div class="booking-summary">
+          <div class="selected-seats">
+            <span>Selected seats: <span id="selected-seatdisplay"></span></span>
+          </div>
+          <div class="total-price">
+            <span>Total Price: $ <span id="totalprice">0.00</span></span>
+          </div>
+          <button class="book-ticket-btn" id="bookticketbtn">Book Ticket</button>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
 
 
 
